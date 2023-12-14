@@ -11,7 +11,7 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        AudioManager.instance.PlayMusic("MainTheme");
     }
 
     // Update is called once per frame
@@ -19,6 +19,7 @@ public class CameraController : MonoBehaviour
     {
        
         transform.position = new Vector3(Mathf.Clamp(player.transform.position.x, xMin, xMax), transform.position.y, transform.position.z);
+
 
     }
 }

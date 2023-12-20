@@ -9,6 +9,7 @@ public class prueba : MonoBehaviour
     {
         Debug.Log("Este es un script definitivo");
         Debug.Log("Este es el main");
+        Debug.Log("Este es el develop");
     }
 
     // Update is called once per frame

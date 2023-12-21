@@ -7,7 +7,9 @@ public class prueba : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Este es un script de prueba");
+        Debug.Log("Este es un script definitivo");
+        Debug.Log("Este es el main");
+        Debug.Log("Este es el develop");
     }
 
     // Update is called once per frame
